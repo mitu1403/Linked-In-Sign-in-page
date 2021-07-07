@@ -1,0 +1,122 @@
+@font-face {
+  font-family: roboto;
+  src: url(../font/Roboto-Bold.ttf);
+}
+@font-face {
+  font-family: poppins;
+  src: url(../font/Poppins-Regular.ttf);
+}
+@font-face {
+  font-family: robotor;
+  src: url(../font/Roboto-Medium.ttf);
+}
+@font-face {
+  font-family: robotoc;
+  src: url(../font/RobotoCondensed-Regular.ttf);
+}
+
+body{
+  margin: 0px;
+  padding: 0px;
+  background-color: #0376AF;
+  font-family: roboto;
+  font-size: 18px;
+}
+.container{
+  max-width: 1000px;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+h2{  color: whitesmoke; }
+.logo{
+  margin-top: -53.5px;
+  margin-left: 65px;
+}
+.inlogo{
+  width: 26.5px;
+  height: 25px;
+  background-color: whitesmoke;
+  color: #0376AF;
+  border-radius: 3px;
+}
+.contents{
+  max-width: 420px;
+  display: block;
+  margin: 0 auto;
+  margin-top: -5px;
+  background-color: #EEEEEE;
+}
+.form{
+  max-width: 370px;
+  display: block;
+  margin: 0 auto;
+  text-align: left;
+  border: 1px solid #EEEEEE;
+}
+form{  margin-top: 10px; }
+label{
+  color: #979797;
+  font-size: 14px;
+  font-family: robotor;
+}
+input{
+  width: 96%;
+  border: .1px solid  #95918F;
+  padding: 7px;
+  margin-bottom: 5px;
+}
+p{
+  font-size: 13.4px;
+  font-family: robotor;
+  text-align: center;
+  color: #858587;
+  font-weight: bold;
+}
+hr{  width: 50%; }
+.button{
+  width: 100%;
+  padding: 7px;
+  font-size: 15px;
+  margin-top: 16px;
+  background-color: #17416B;
+  color: whitesmoke;
+  border-radius: 5px;
+  border: none;  
+}
+.button1{
+  background-color: #212E4E ;
+  text-align: center;
+  padding: 3px;
+  margin-top: -15px;
+}
+h6 {
+  color: rgb(180, 173, 173);
+  display: flex;
+  flex-direction: row;
+}
+h6:before, h6:after {
+  content: "";
+  flex: 1 1;
+  border-bottom: 2px solid gainsboro;
+  margin: auto;
+}
+.fab{
+  color: white; 
+  font-size: 21px;
+}
+.fb{  margin-left: -348px; }
+
+.icon1{  margin-top: -17px; }
+a{
+  text-decoration: none;
+  color: rgb(77, 77, 245);
+}
+.footer{
+  font-size: 13px;
+  font-family: robotoc;
+  text-align: center;
+  color: whitesmoke;
+  margin-top: 5px;
+  font-weight: normal;
+}
